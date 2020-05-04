@@ -1,0 +1,32 @@
+{
+  "name": "stack-asm",
+  "version": "0.0.2",
+  "description": "An avr assembler written in Node.JS.",
+  "main": "lib/index.js",
+  "bin": {
+    "arc-asm": "./bin/stack-asm"
+  },
+  "scripts": {
+    "test": "node test; ./bin/stack-asm -s test/Test.asm -o ./out"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "avr",
+    "assembler"
+  ],
+  "dependencies": {
+    "arc-util": "3.0.0",
+    "clp": "^3.0.0",
+    "read-utf8": "^1.0.0",
+    "yargs": "1.3.3"
+  },
+  "author": "Timo-cmd",
+  "license": "MIT",
+  
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
+}
